@@ -1,0 +1,28 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE-specific ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+*.log
+
+# Build outputs
+dist/
+build/
+*.egg-info/
